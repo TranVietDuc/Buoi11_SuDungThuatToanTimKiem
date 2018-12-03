@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var string= prompt("Insert string to filter");
+
+    var regExp = /0((3[2-9])|(9[6-8])|86)\d{7}/gi;
+
+    var filteredString= string.match(/0((3[2-9])|(9[6-8])|86)\d{7}/gi).toString();
+    document.write(filteredString);
+
+
+</script>
+
+</body>
+</html>
